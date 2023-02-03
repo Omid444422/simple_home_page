@@ -1,53 +1,84 @@
 <!DOCTYPE html>
 <html lang="fa">
-    <head>
-        <title>Home Page</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css"
+    />
 
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-    
-        <header class="container-fluid bg-header">
-            <nav class="p-2">
-             
-                <div class="w-100 row row-col-sm-1">
-                    <div class="col-2">
-                        <a class="nav-item text-light" href="index.html">
-                           <h1>Banner</h1>        
-                        </a>
-                    </div>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="container-fluid bg-header">
+      <nav class="p-2">
+        <div class="w-100 row row-col-sm-1">
+          <div class="col-2">
+            <a class="nav-item text-light" href="index.html">
+              <h1><strong>Banner</strong></h1>
+            </a>
+          </div>
 
-                    <div class="col-10 ">
-                        <ul class="list-unstyled d-flex justify-content-end">
-                            <li class="me-2">
-                                <a href="">lorem</a>
-                            </li>
-                        </ul>
-                    </div>
+          <div class="col-10 p-2">
+            <ul class="list-unstyled d-flex justify-content-end">
+              <li class="me-5">
+                <a class="nav-item rounded-cicle" href="#"
+                  ><strong>تست</strong></a
+                >
+              </li>
+              <li class="me-5">
+                <a class="nav-item rounded-cicle" href="#"
+                  ><strong>تست</strong></a
+                >
+              </li>
+              <li class="me-5">
+                <a class="nav-item rounded-cicle" href="#"
+                  ><strong>تست</strong></a
+                >
+              </li>
+              <li class="me-5">
+                <a class="nav-item rounded-cicle" href="#"
+                  ><strong>تست</strong></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-                </div>
+      <main class="row justify-content-center">
+        <div class="col-6 rounded-3">
+          <form action="index.html" method="POST">
+            <input
+              type="text"
+              name="search_input"
+              id="search_input"
+              class="form-control"
+              placeholder="اینجا جستجو کنید...."
+            />
+          </form>
 
-                
-                
-            </nav>
-        </header>
+          <div id="search_items">
+            <ul class="list-unstyled p-1">
+              <li class="m-2 p-2 border rounded-2">
+                <a href="">این یک تایتل است</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </header>
 
+    <!-- bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
+    <!-- jquery -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
 
-        
-
-
-
-
-        <!-- bootstrap -->
-        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-
-        <script src="js/main.js"></script>
-
-    </body>
+    <script src="js/main.js"></script>
+  </body>
 </html>

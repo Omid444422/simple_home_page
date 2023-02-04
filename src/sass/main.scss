@@ -12,7 +12,7 @@ body {
 }
 
 .bg-header {
-    position: fixed !important;
+    // position: fixed !important;
     margin: 0;
     background-image: url(../img/header.jpg);
     background-position: bottom;
@@ -20,7 +20,7 @@ body {
     background-attachment: fixed;
     height: 80vh;
 
- 
+
     li {
         &[class=me-5]:hover {
             border-bottom: 2px solid red;

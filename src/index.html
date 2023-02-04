@@ -24,7 +24,7 @@
           </div>
 
           <div class="col-10 p-2">
-            <ul class="list-unstyled d-flex justify-content-end">
+            <ul class="list-unstyled d-none d-lg-flex justify-content-lg-end">
               <li class="me-5">
                 <a class="nav-item rounded-cicle" href="#"
                   ><strong>تست</strong></a
@@ -46,12 +46,63 @@
                 >
               </li>
             </ul>
+
+            <div id="small_navbar" class="d-lg-none d-flex justify-content-end">
+              <div class="dropdown">
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-list"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                    />
+                  </svg>
+                </button>
+                <ul
+                  class="dropdown-menu bg-dark rounded-3"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li class="ms-3">
+                    <a class="nav-item rounded-cicle" href="#"
+                      ><strong>تست</strong></a
+                    >
+                  </li>
+                  <li class="ms-3">
+                    <a class="nav-item rounded-cicle" href="#"
+                      ><strong>تست</strong></a
+                    >
+                  </li>
+                  <li class="ms-3">
+                    <a class="nav-item rounded-cicle" href="#"
+                      ><strong>تست</strong></a
+                    >
+                  </li>
+                  <li class="ms-3">
+                    <a class="nav-item rounded-cicle" href="#"
+                      ><strong>تست</strong></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
 
       <main class="row justify-content-center">
-        <div class="col-6 rounded-3">
+        <div class="col-10 col-lg-6 rounded-3">
           <form action="index.html" method="POST">
             <input
               type="text"

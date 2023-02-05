@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- icon -->
-    <link rel="shortcut icon" href="./img/icon1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icon1.png" type="image/x-icon" />
 
     <!-- bootstrap -->
     <link
@@ -142,7 +142,9 @@
 
           <div id="search_items">
             <ul id="search_items_list" class="list-unstyled p-1">
-              <li class="text-light"><span>سرچ شما: <strong id="searched_items"></strong> </span></li>
+              <li class="text-light">
+                <span>سرچ شما: <strong id="searched_items"></strong> </span>
+              </li>
               <li class="m-2 p-2 border rounded-2">
                 <a href="">این یک تایتل است</a>
               </li>
@@ -153,133 +155,177 @@
     </header>
 
     <main id="main_content" class="container mt-3 mian-items">
-
-        <div class="container overflow-hidden text-light ">
-              <div class="row">
-                <div class="col-12 d-flex justify-content-start">
-                    <div>
-                      <select name="item_status" id="item_status" class="bg-dark text-light form-control">
-                        <option value="جدیدترین" selected>جدیدترین</option>
-                        <option value='قدیمی'>قدیمی</option>
-                      </select>
-                    </div>
-                </div>
-                <hr class="text-light w-100 mt-2">
-                <div class="col-12">
-                    <div class="row gx-4 gy-4">
-                      
-                      <div id="card" class="col-lg-4">
-                        <div class="border border-light rounded-2 p-0 m-0">
-                          <img src="img/1.webp" class="rounded w-100" alt="test">
-                          <span class="p-2"><a class="items_title" href=""><strong>ایتم شماره 1</strong></a></span>
-                          <p class="p-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                          <div class="p-2 ps-2 m-0">
-                            <a class="items_title btn btn-success w-100" href="">خرید محصول</a>
-                            <hr class="w-100">
-                            <a class="items_title btn btn-warning w-100" href="">اضافه کردن به سبد خرید</a>
-                          </div>
-                        </div>
-                        </div>
-  
-                        <div id="card" class="col-lg-4">
-                          <div class="border border-light rounded-2 p-0 m-0">
-                            <img src="img/1.webp" class="rounded w-100" alt="test">
-                            <span class="p-2"><a class="items_title" href=""><strong>ایتم شماره 1</strong></a></span>
-                            <p class="p-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                            <div class="p-2 ps-2 m-0">
-                              <a class="items_title btn btn-success w-100" href="">خرید محصول</a>
-                              <hr class="w-100">
-                              <a class="items_title btn btn-warning w-100" href="">اضافه کردن به سبد خرید</a>
-                            </div>
-                          </div>
-                          </div>
-  
-  
-                          <div id="card" class="col-lg-4">
-                            <div class="border border-light rounded-2 p-0 m-0">
-                              <img src="img/1.webp" class="rounded w-100" alt="test">
-                              <span class="p-2"><a class="items_title" href=""><strong>ایتم شماره 1</strong></a></span>
-                              <p class="p-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                              <div class="p-2 ps-2 m-0">
-                                <a class="items_title btn btn-success w-100" href="">خرید محصول</a>
-                                <hr class="w-100">
-                                <a class="items_title btn btn-warning w-100" href="">اضافه کردن به سبد خرید</a>
-                              </div>
-                            </div>
-                            </div>
-  
-                            <div id="card" class="col-lg-4">
-                              <div class="border border-light rounded-2 p-0 m-0">
-                                <img src="img/1.webp" class="rounded w-100" alt="test">
-                                <span class="p-2"><a class="items_title" href=""><strong>ایتم شماره 1</strong></a></span>
-                                <p class="p-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                                <div class="p-2 ps-2 m-0">
-                                  <a class="items_title btn btn-success w-100" href="">خرید محصول</a>
-                                  <hr class="w-100">
-                                  <a class="items_title btn btn-warning w-100" href="">اضافه کردن به سبد خرید</a>
-                                </div>
-                              </div>
-                              </div>
-
-                              <div id="card" class="col-lg-4">
-                                <div class="border border-light rounded-2 p-0 m-0">
-                                  <img src="img/1.webp" class="rounded w-100" alt="test">
-                                  <span class="p-2"><a class="items_title" href=""><strong>ایتم شماره 1</strong></a></span>
-                                  <p class="p-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                                  <div class="p-2 ps-2 m-0">
-                                    <a class="items_title btn btn-success w-100" href="">خرید محصول</a>
-                                    <hr class="w-100">
-                                    <a class="items_title btn btn-warning w-100" href="">اضافه کردن به سبد خرید</a>
-                                  </div>
-                                </div>
-                                </div>
-
-
-                                <div id="card" class="col-lg-4">
-                                  <div class="border border-light rounded-2 p-0 m-0">
-                                    <img src="img/1.webp" class="rounded w-100" alt="test">
-                                    <span class="p-2"><a class="items_title" href=""><strong>ایتم شماره 1</strong></a></span>
-                                    <p class="p-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                                    <div class="p-2 ps-2 m-0">
-                                      <a class="items_title btn btn-success w-100" href="">خرید محصول</a>
-                                      <hr class="w-100">
-                                      <a class="items_title btn btn-warning w-100" href="">اضافه کردن به سبد خرید</a>
-                                    </div>
-                                  </div>
-                                  </div>
-
-
-                                  
-                    
-                    
-                    
-                          </div>
-
-                            
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-
-
-                  
-
-
-              
-                    
-
-                  
-                    
+      <div class="container overflow-hidden text-light">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-start">
+            <div>
+              <select
+                name="item_status"
+                id="item_status"
+                class="bg-dark text-light form-control"
+              >
+                <option value="جدیدترین" selected>جدیدترین</option>
+                <option value="قدیمی">قدیمی</option>
+              </select>
+            </div>
+          </div>
+          <hr class="text-light w-100 mt-2" />
+          <div class="col-12">
+            <div class="row gx-4 gy-4">
+              <div id="card" class="col-lg-4">
+                <div class="border border-light rounded-2 p-0 m-0">
+                  <img src="img/1.webp" class="rounded w-100" alt="test" />
+                  <span class="p-2"
+                    ><a class="items_title" href=""
+                      ><strong>ایتم شماره 1</strong></a
+                    ></span
+                  >
+                  <p class="p-2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="p-2 ps-2 m-0">
+                    <a class="items_title btn btn-success w-100" href=""
+                      >خرید محصول</a
+                    >
+                    <hr class="w-100" />
+                    <a class="items_title btn btn-warning w-100" href=""
+                      >اضافه کردن به سبد خرید</a
+                    >
+                  </div>
                 </div>
               </div>
+
+              <div id="card" class="col-lg-4">
+                <div class="border border-light rounded-2 p-0 m-0">
+                  <img src="img/1.webp" class="rounded w-100" alt="test" />
+                  <span class="p-2"
+                    ><a class="items_title" href=""
+                      ><strong>ایتم شماره 1</strong></a
+                    ></span
+                  >
+                  <p class="p-2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="p-2 ps-2 m-0">
+                    <a class="items_title btn btn-success w-100" href=""
+                      >خرید محصول</a
+                    >
+                    <hr class="w-100" />
+                    <a class="items_title btn btn-warning w-100" href=""
+                      >اضافه کردن به سبد خرید</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div id="card" class="col-lg-4">
+                <div class="border border-light rounded-2 p-0 m-0">
+                  <img src="img/1.webp" class="rounded w-100" alt="test" />
+                  <span class="p-2"
+                    ><a class="items_title" href=""
+                      ><strong>ایتم شماره 1</strong></a
+                    ></span
+                  >
+                  <p class="p-2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="p-2 ps-2 m-0">
+                    <a class="items_title btn btn-success w-100" href=""
+                      >خرید محصول</a
+                    >
+                    <hr class="w-100" />
+                    <a class="items_title btn btn-warning w-100" href=""
+                      >اضافه کردن به سبد خرید</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div id="card" class="col-lg-4">
+                <div class="border border-light rounded-2 p-0 m-0">
+                  <img src="img/1.webp" class="rounded w-100" alt="test" />
+                  <span class="p-2"
+                    ><a class="items_title" href=""
+                      ><strong>ایتم شماره 1</strong></a
+                    ></span
+                  >
+                  <p class="p-2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="p-2 ps-2 m-0">
+                    <a class="items_title btn btn-success w-100" href=""
+                      >خرید محصول</a
+                    >
+                    <hr class="w-100" />
+                    <a class="items_title btn btn-warning w-100" href=""
+                      >اضافه کردن به سبد خرید</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div id="card" class="col-lg-4">
+                <div class="border border-light rounded-2 p-0 m-0">
+                  <img src="img/1.webp" class="rounded w-100" alt="test" />
+                  <span class="p-2"
+                    ><a class="items_title" href=""
+                      ><strong>ایتم شماره 1</strong></a
+                    ></span
+                  >
+                  <p class="p-2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="p-2 ps-2 m-0">
+                    <a class="items_title btn btn-success w-100" href=""
+                      >خرید محصول</a
+                    >
+                    <hr class="w-100" />
+                    <a class="items_title btn btn-warning w-100" href=""
+                      >اضافه کردن به سبد خرید</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div id="card" class="col-lg-4">
+                <div class="border border-light rounded-2 p-0 m-0">
+                  <img src="img/1.webp" class="rounded w-100" alt="test" />
+                  <span class="p-2"
+                    ><a class="items_title" href=""
+                      ><strong>ایتم شماره 1</strong></a
+                    ></span
+                  >
+                  <p class="p-2">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                  </p>
+                  <div class="p-2 ps-2 m-0">
+                    <a class="items_title btn btn-success w-100" href=""
+                      >خرید محصول</a
+                    >
+                    <hr class="w-100" />
+                    <a class="items_title btn btn-warning w-100" href=""
+                      >اضافه کردن به سبد خرید</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
-
-
-   
 
     <!-- bootstrap -->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

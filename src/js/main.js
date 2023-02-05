@@ -25,3 +25,16 @@ search_items_list.classList.add('d-none');
 search_input.addEventListener('keyup',function(){
     searched_items.innerText = search_input.value;
 });
+
+
+
+// counter number 
+
+$(document).ready(function(){
+
+    $('.number_counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+});

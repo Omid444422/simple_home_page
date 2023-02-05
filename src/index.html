@@ -130,7 +130,7 @@
 
       <main class="row justify-content-center">
         <div class="col-10 col-lg-6 rounded-3">
-          <form action="index.html" method="POST">
+          <form action="./index.html" method="get">
             <input
               type="text"
               name="search_input"
@@ -324,6 +324,55 @@
             </div>
           </div>
         </div>
+        <hr class="w-100" />
+        <div class="row">
+          <div class="col-12 row justify-content-start">
+            <div class="col-12">
+              <div class="p-2">مراحل ارسال به شرح زیر است:</div>
+            </div>
+            <div class="col-3">
+              <div class="p-2">
+                <img src="img/waiting.png" class="img-fluid" alt="roadmap" />
+                <p>در انتظار: <b class="number_counter">12341</b></p>
+                <p>
+                  این قسمت کالا هایی هستند که در انتظار تایید تیم مدیریت هستند.
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="p-2">
+                <img src="img/roadmap.png" class="img-fluid" alt="roadmap" />
+                <p>درحال ارسال: <b class="number_counter">4248</b></p>
+                <p>این قسمت کالا ها درحال بسته بندی و ارسال می باشند</p>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="p-2">
+                <img src="img/money.png" class="img-fluid" alt="roadmap" />
+                <p>در انتظار پرداخت: <b class="number_counter">7489</b></p>
+                <p>
+                  این قسمت کالاها آماده ارسال هستند و پس از پرداخت مبلغ محصول
+                  ارسال می گردند
+                </p>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="p-2">
+                <img
+                  src="img/success (2).png"
+                  class="img-fluid"
+                  alt="roadmap"
+                />
+                <p>ارسال شده: <b class="number_counter">11284</b></p>
+                <p>
+                  در این قسمت کالای شما ارسال شده و شما محصول را تحویل گرفتید
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
@@ -332,6 +381,12 @@
 
     <!-- jquery -->
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- waypoints -->
+    <script src="../node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+
+    <!-- count up -->
+    <script src="../node_modules/counterup/jquery.counterup.min.js"></script>
 
     <script src="js/main.js"></script>
   </body>

@@ -14,9 +14,22 @@
       href="../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css"
     />
 
+
+    <!-- my style -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+
+    <!-- preloader -->
+      <div id="preloader_body" class="d-none">
+        <div id="preloader_animation">
+          <img src="img/preloader.gif" alt="loader">
+          <span class="display-6" id="preloader_text">...Loading</span>
+        </div>
+      </div>
+
+
+
     <header class="container-fluid bg-header">
       <nav class="p-2">
         <div class="w-100 row row-col-sm-1">
@@ -116,11 +129,6 @@
                       ><strong>تست</strong></a
                     >
                   </li>
-                  <li class="ms-3">
-                    <a class="nav-item rounded-cicle" href="#"
-                      ><strong>تست</strong></a
-                    >
-                  </li>
                 </ul>
               </div>
             </div>
@@ -141,7 +149,7 @@
           </form>
 
           <div id="search_items">
-            <ul id="search_items_list" class="list-unstyled p-1">
+            <ul id="search_items_list" class="list-unstyled p-1 d-none">
               <li class="text-light">
                 <span>سرچ شما: <strong id="searched_items"></strong> </span>
               </li>
@@ -330,7 +338,7 @@
             <div class="col-12">
               <div class="p-2">مراحل ارسال به شرح زیر است:</div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
               <div class="p-2">
                 <img src="img/waiting.png" class="img-fluid" alt="roadmap" />
                 <p>در انتظار: <b class="number_counter">12341</b></p>
@@ -339,7 +347,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
               <div class="p-2">
                 <img src="img/roadmap.png" class="img-fluid" alt="roadmap" />
                 <p>درحال ارسال: <b class="number_counter">4248</b></p>
@@ -347,7 +355,7 @@
               </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
               <div class="p-2">
                 <img src="img/money.png" class="img-fluid" alt="roadmap" />
                 <p>در انتظار پرداخت: <b class="number_counter">7489</b></p>
@@ -358,7 +366,7 @@
               </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
               <div class="p-2">
                 <img
                   src="img/success (2).png"
@@ -376,6 +384,45 @@
       </div>
     </main>
 
+
+    <footer class="container-fluid bg-dark">
+      <div class="d-flex justify-content-center p-2">
+       <div class="scroll_top_div bg-warning rounded-circle">
+        <button class="btn" id="scroll_up">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+          </svg>
+        </button>
+       </div>
+      </div>
+        <div class="row p-4">
+          <div class="col-6 p-3">
+           <p class="text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat quod molestiae temporibus magni delectus, corrupti ipsa sequi a odio asperiores, aperiam alias quis numquam consequatur </p>
+          </div>
+          <div class="col-6">
+            <ul class="list-unstyled">
+                <li class="p-2">
+                  <a class="nav-item text-decoration-none text-light" href="">lorem</a>
+                </li>
+                <li class="p-2">
+                  <a class="nav-item text-decoration-none text-light" href="">lorem</a>
+                </li>
+                <li class="p-2">
+                  <a class="nav-item text-decoration-none text-light" href="">lorem</a>
+                </li>
+                <li class="p-2">
+                  <a class="nav-item text-decoration-none text-light" href="">lorem</a>
+                </li>
+            </ul>
+          </div>
+            <div class="d-flex justify-content-center p-2">
+              <h4 class="text-warning">
+                <strong>created By Omid444422</strong>
+              </h4>
+            </div>
+        </div>
+    </footer>
+
     <!-- bootstrap -->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
@@ -389,5 +436,6 @@
     <script src="../node_modules/counterup/jquery.counterup.min.js"></script>
 
     <script src="js/main.js"></script>
+
   </body>
 </html>

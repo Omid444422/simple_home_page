@@ -13,7 +13,28 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    z-index: 0;
 }
+
+
+#preloader_body {
+    position: fixed !important;
+    width: 100% !important;
+    height: 100%;
+    z-index: 99;
+    background-color: #15616d;
+    color: white;
+}
+
+#preloader_animation {
+    margin-top: 50vh;
+    margin-right: 50vw;
+        img {
+            width: 80px;
+        }
+}
+
+
 
 .bg-header {
     // position: fixed !important;
@@ -71,4 +92,14 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     div:first-child:hover {
         background: #001427;
     }
+}
+
+
+#scroll_top_div {
+    width: 50px;
+    height: 50px;
+}
+
+#scroll_up {
+    border: none;
 }

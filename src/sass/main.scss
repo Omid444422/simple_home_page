@@ -37,7 +37,6 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 
 
 .bg-header {
-    // position: fixed !important;
     margin: 0;
     background-image: url(../img/header.jpg);
     background-position: bottom;
@@ -55,6 +54,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
             text-decoration: none;
             color: white;
         }
+        
     }
 
     main {
